@@ -18,7 +18,7 @@ const makeToast = async () => {
     await toast({
       title: "Cotización USD / US3",
       message: `💰 BNA - Venta: ${dolarOficial.venta}\n📉 US3 - ${us3}`,
-      icon: 'usd.ico'
+      icon: './icon/usd.jpg'
     });
 
   } catch (error) {
